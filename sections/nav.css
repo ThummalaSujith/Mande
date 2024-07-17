@@ -1,0 +1,97 @@
+.header__nav{
+    display:flex;
+    flex-direction: row;
+    
+}
+
+.container{
+    margin:0 auto;
+    width:90%;
+   
+}
+
+nav{
+    width:100vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top:10px;
+
+
+}
+.header__nav-left{
+    display: flex;
+    
+}
+.header__middle{
+    display: flex;
+}
+
+.header__Eco{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    font-family:'Sora' ;
+    
+}
+
+.header__network{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    font-family: 'Sora';
+}
+
+.header__social{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    font-family: 'Sora';
+}
+
+.header__right-buttons{
+    display:flex;
+    align-items:center;
+}
+
+.header__middle{
+    gap:10px;
+}
+
+.header__discord-button{
+    color:rgba(4, 21, 77, 1);
+    width:176px;
+    height: 50px;
+
+  font-family: 'Sora';
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  border:rgba(255, 255, 255, 1);
+  
+  background: linear-gradient( rgb(175, 188, 214),#274CBF,rgb(175, 188, 214));
+
+  border-radius: 6px;
+  border: 1px solid;
+  
+  
+}
+
+.header__testnet{
+    color:white;
+    width:100px;
+    height: 50px;
+  padding:16px;
+  font-weight: 600;
+  font-family: 'Sora';
+  font-size: 14px;
+  border:1px solid rgba(179, 192, 222, 1);
+  border-radius:5px ;
+  background-color: transparent;
+}
+.header__right-buttons{
+    display: flex;
+    gap:10px;
+}
