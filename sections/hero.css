@@ -1,0 +1,33 @@
+.hero__heading h1{
+    color:rgba(255, 255, 255, 1);
+    font-family: 'Sora';
+    width:452px;
+    font-size: 65px;
+
+    
+    
+}
+
+.hero{
+    margin-top:179px;
+    
+    
+   
+}
+
+.hero__buttons{
+    display:flex;
+    gap:8px;
+margin-top: 30px;
+}
+
+
+.hero__para{
+    margin-top:50px;
+    color:rgba(255, 255, 255, 1);
+    font-family: 'Sora';
+    width:490px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
