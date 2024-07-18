@@ -1,0 +1,24 @@
+
+@import url('sections/background-image.css');
+
+@import url('sections/nav.css');
+
+@import url('sections/hero.css');
+
+@import url('sections/Our.css');
+
+@import url('sections/sdk.css');
+@import url('sections/Tech.css');
+@import url('sections/community.css');
+@import url('sections/Mandela.css');
+@import url('sections/TeamMember.css');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* body{
+    background-color: black;
+} */

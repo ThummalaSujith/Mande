@@ -1,0 +1,78 @@
+.Mandela__img{
+    width:570px;
+    height:570px;
+    z-index:10;
+    position: relative;
+    
+   
+}
+.Mandela__image{
+    position: relative;
+    z-index: 10;
+}
+
+.Mandela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:70px;
+    background-color: black;
+}
+
+.Mandela__heading h2{
+    font-family: 'Sora';
+    font-size: 42px;
+    font-weight: bold;
+    width:400px;
+    color:white;
+}
+
+.Mandela__quotes-heading h4{
+    font-size: 28px;
+    font-family: 'Sora';
+    color:white;
+}
+
+.Mandela__quotes-heading p{
+font-family:"Sora";
+font-size:14px;
+color:white;
+}
+
+
+.Mandela__quotes{
+    display:flex;
+    flex-direction: column;
+    gap:65px;
+    width:500px;
+
+
+}
+
+.Mandela_quotes-para p{
+    font-family: 'Sora';
+    font-size: 14px;
+    color:white;
+}
+
+.Mandela_quotes-para2{
+    font-size: 14px;
+    font-family:"Sora";
+    color:white;
+}
+
+.Mandela__image-blur{
+  position: absolute;
+    background: rgba(224, 227, 238, 0.7);
+    border-radius: 407px;
+    font-size: 250px;
+    height: 2.6em;
+    width: 2.6em;
+    filter: blur(100px);
+    top:40px;
+right:2px;
+    
+    opacity:0.3;
+    z-index: 0;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); 
+}

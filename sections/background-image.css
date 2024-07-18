@@ -1,0 +1,7 @@
+.background__image{
+    background-image: url('../assests/images/main-img.jpeg');
+    width:100%;
+    height: 910px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

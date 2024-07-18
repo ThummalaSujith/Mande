@@ -1,0 +1,72 @@
+.Team{
+    display:flex;
+    justify-content: space-between;
+    margin-top:130px;
+    height:750px;
+    background-color: black;
+    color:white;
+
+}
+
+.Team__heading h4{
+    font-size: 40px;
+    font-family: "Sora";
+}
+
+.Team__Container{
+    width:1000px;
+   
+ 
+   
+
+   
+    
+}
+
+
+.Team__member{
+    display:flex;
+   
+    border-top: gray 1px solid;
+ justify-content: space-between;
+ padding:31px;
+
+   
+   
+}
+
+.Team__member-details{
+    width:200px;
+    font-family: 'Sora';
+}
+
+.Team__member-Image{
+    width:118px;
+}
+
+.Team__member-para{
+    width:538px;
+    font-family: 'Sora';
+}
+
+.Team__member-position{
+    border:1px solid gray;
+    display:flex;
+    justify-content: center;
+    border-radius:10px;
+   margin-top:16px;
+   width:110px;
+   font-size: 14px;
+}
+.Team__member-name{
+    font-size: 18px;
+}
+
+.Team__member-Image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}

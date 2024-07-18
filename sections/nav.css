@@ -24,6 +24,9 @@ nav{
 }
 .header__middle{
     display: flex;
+    color:white;
+    width:500px;
+    padding-left:50px;
 }
 
 .header__Eco{
