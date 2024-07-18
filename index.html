@@ -84,7 +84,7 @@
     </div>
     <div class="container">
       <section class="Our">
-        <div class="Our__first-card">
+        <div class="Our__first-card slide-in">
           <h1 class="Our__heading">I am because <span> you are.</span></h1>
 
           <img class="Our__img" src="./assests/images/group-13.svg" />
@@ -94,7 +94,7 @@
           </p>
         </div>
 
-        <div class="Our__second-card">
+        <div class="Our__second-card slide-in">
           <p class="Our__second-card-para">
             Our network inspired by Ubuntu philosophy,invests in you with our
             tokens. Your growth fuels our success.
@@ -113,18 +113,22 @@
       </section>
 
       <section class="SDK">
-        <div class="SDK__card1">
+        <div class="SDK__card1 slide-in">
           <h4>Proof of Credibility SDK</h4>
           <p>
             The proof of Credibility SDK enables developers to integrate
             decentralized reputation systems into their DAPPs,fostering trust
             through the following
           </p>
+          <div class="SDK__explore">
+
+         
           <p class="SDK__card1-explore">Explore Docs</p>
         </div>
+        </div>
 
-        <div class="SDK__card2">
-          <div class="SDK__card2-sub-card1">
+        <div class="SDK__card2 ">
+          <div class="SDK__card2-sub-card1 slide-in">
             <img src="./assests/images/track.svg" class="sdk-pic1" />
             <p class="SDK__card2-sub-card1-track">Track Record</p>
             <p class="SDK__card2-sub-card1-logs">
@@ -132,15 +136,15 @@
             </p>
           </div>
 
-          <div class="SDK__card2-sub-card2">
+          <div class="SDK__card2-sub-card2 slide-in">
             <img src="./assests/images/peer.svg" class="sdk-pic1" />
-            <p>Peer-to-Peer Voting</p>
-            <p>Implements quadratic voting for peer to peer trust scores</p>
+            <p class="SDK__card2-sub-text1">Peer-to-Peer Voting</p>
+            <p  class="SDK__card2-sub-text2">Implements quadratic voting for peer to peer trust scores</p>
           </div>
         </div>
 
         <div class="SDK__card3">
-          <div class="SDK__card3-sub-card3">
+          <div class="SDK__card3-sub-card3 slide-in">
             <img src="./assests/images/on-chain.svg" />
             <p class="SDK__card3-sub-text1">On-chain Credentials</p>
             <p class="SDK__card3-sub-text2">
@@ -148,10 +152,10 @@
             </p>
           </div>
 
-          <div class="SDK__card3-sub-card4">
+          <div class="SDK__card3-sub-card4 slide-in">
             <img src="./assests/images/DAO.svg" />
-            <p>DAO Attestations</p>
-            <p>Enables DAOs to award rights and badges (SBTs).</p>
+            <p class="SDK__card4-sub-text1">DAO Attestations</p>
+            <p class="SDK__card4-sub-text2">Enables DAOs to award rights and badges (SBTs).</p>
           </div>
         </div>
       </section>
@@ -214,7 +218,7 @@
 
       <section class="Community">
         <h1 class="Community-heading">Join our community</h1>
-        <div class="Community__Cards">
+        <div class="Community__Cards slide-in">
           <div class="card">
             <img src="./assests/images/explore2.svg" />
             <h5>Explore proof of credibility</h5>
@@ -384,9 +388,96 @@
 </div>
 </section>
 
-        </div>
+     <footer>
 
+<div class="footer__image">
+<img src="./assests/images/Mande__footer.svg" class=""/>
+</div>
+
+
+
+<div class="footer__grid">
+
+  <div class="footer__About">
+
+    <h3>About</h3>
+
+<p>Media Kit</p>
+<p>Blog</p>
+<p>Terms of Service</p>
+
+  </div>
+
+
+  <div class="footer__Social">
+
+    <h3>
+      Social
+
+    </h3>
+
+    <p>
+      Twitter
+    </p>
+
+    <p>
+      Linkedin
+    </p>
+
+
+  
+  </div>
+  <div class="footer__exchanges">
+
+    <h3>Exchanges</h3>
+    <p>Bitget</p>
+    <p>Dymension DEX</p>
+  
+  </div>
+  <div class="footer__DAPPs">
+
+    <h3>DAPPs</h3>
+    <p>P2PX Finance</p>
+    <p>ZeroLend</p>
+    <p>ModelVerse</p>
+    <p>Sakura</p>
+
+  
+  </div>
+
+</div>
+
+
+     </footer>  
+
+
+     <div class="Mande__logo">
+
+      <img  src="./assests/images/mande__logo.svg" class="mande__logo"/>
+
+     </div>
      
-    </div>
+   <script>
+
+const sliders = document.querySelectorAll('.slide-in');
+
+let observer = new IntersectionObserver((entries, observer) => {
+  entries.forEach(entry => {
+    if (!entry.isIntersecting) {
+      return;
+    } else {
+      entry.target.classList.add('show');
+      observer.unobserve(entry.target);
+    }
+  });
+}, {
+  threshold: 0
+});
+
+sliders.forEach(slider => {
+  observer.observe(slider);
+});
+
+   </script>
   </body>
 </html>

@@ -1,0 +1,53 @@
+footer{
+    margin-top:50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__About{
+    color:white;
+    text-transform: capitalize;
+display:flex;
+flex-direction: column;
+gap:20px;
+    font-family: 'Sora';
+}
+
+.footer__Social{
+    color:white;
+    text-transform: capitalize;
+  
+    font-family: 'Sora';
+    display:flex;
+flex-direction: column;
+gap:20px;
+}
+
+.footer__exchanges{
+    color:white;
+    text-transform: capitalize;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    font-family: 'Sora';
+}
+
+.footer__DAPPs{
+    color:white;
+    text-transform: capitalize; 
+  
+    font-family: 'Sora';
+    display:flex;
+flex-direction: column;
+gap:20px;
+}
+
+.footer__grid{
+    display:flex;
+gap:80px;
+padding:20px;
+}
+
+h3{
+    color:rgb(179,192,222,0.9);
+}
