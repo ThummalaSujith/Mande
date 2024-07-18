@@ -1,0 +1,206 @@
+
+/* .Tech__Network h3{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Sora';
+    width:400px;
+    color:white;
+    padding-top: 60px;
+    padding-left:60px;
+    
+    }
+    
+    .Tech__Network{
+        width:40%;
+    }
+    
+    .Tech{
+        
+        
+        height:660px;
+        position:relative;
+        background-color: rgb(31, 31, 31);
+        display: flex;
+    
+    }
+    
+    .Tech__blur{
+        position:absolute;
+        background: rgba(4, 21, 77, 0.7);
+        border-radius: 407px;
+        font-size: 250px;
+        height: 1.5em;
+        width: 1.5em;
+        filter: blur(100px);
+        top:100px;
+        left:120px;
+        opacity:0.8;
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); 
+    }
+.Tech__Network h3{
+font-size: 40px;
+font-weight: bold;
+font-family: 'Sora';
+width:400px;
+color:white;
+padding-top: 60px;
+padding-left:60px;
+
+}
+
+.Tech__Network{
+    width:40%;
+}
+
+.Tech{
+    margin-top:60px;
+    width:100%;
+    height:660px;
+    position:relative;
+    background-color: rgb(31, 31, 31);
+
+}
+
+.Tech__margin{
+    display: flex;
+    
+    width:100%;
+
+}
+
+.Tech__blur{
+    position:absolute;
+    background: rgba(4, 21, 77, 0.7);
+    border-radius: 407px;
+    font-size: 250px;
+    height: 1.5em;
+    width: 1.5em;
+    filter: blur(100px);
+    top:100px;
+    left:120px;
+    opacity:0.8;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); 
+}
+
+hr{
+    color:gray;
+    width:600px;
+   
+    margin-top:10px;
+    margin:0 auto;
+}
+.Tech__right{
+    width:694px;
+    height:440px;
+    margin-top:100px;
+    
+  
+}
+
+.Tech__right-row-1{
+
+} */
+
+.Tech{
+    height:660px;
+   
+    margin-top:180px;
+    width:100%;
+
+}
+
+.Tech-sec{
+    padding-top:100px;
+    padding-left:70px;
+    padding-right:70px;
+    display: flex;
+}
+
+.Tech__left{
+    position: relative;
+    padding:0;
+    width:40%
+}
+
+.Tech__left h4{
+    color:white;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Sora';
+    width:400px;
+    
+
+}
+
+.Tech__blur{
+    position:absolute;
+    background: rgba(4, 21, 77, 0.7);
+    border-radius: 407px;
+    font-size: 250px;
+    height: 1.8em;
+    width: 1.8em;
+    filter: blur(100px);
+    top:0;
+    left:170px;
+    
+    opacity:0.8;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); 
+}
+
+hr{
+    color:gray;
+    width:600px;
+   
+    
+}
+
+.Tech__right{
+ 
+    width:60%;
+    margin:0 auto;
+    height:440px;
+   
+}
+ul{
+    width:100%;
+ 
+
+   
+}
+
+li{
+    height:155px;
+    border-top: 1px gray solid;
+    list-style: none;
+    display: flex;
+    gap:70px;
+    
+}
+
+.Tech__right-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#f7f9ff;
+    font-family: 'Sora';
+    font-size: 24px;
+    gap:30px;
+}
+
+.Tech__right-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#f7f9ff;
+    font-family: 'Sora';
+    font-size: 14px;
+}
+
+.Tech__right-right p{
+width: 450px;
+display:inline;
+}
+
+.Tech__right-left h4{
+width:300px;
+}
