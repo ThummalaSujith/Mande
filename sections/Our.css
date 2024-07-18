@@ -2,45 +2,37 @@
     
 mix-blend-mode:difference;
 
-    width:150px;
-    height:150px;
+    width:180px;
+    height:180px;
     margin-top:10px;
 }
 
 .Our{
     display:flex;
     margin-top:50px;
-    gap:10px;
+    gap:20px;
     justify-content: center;
 }
 
 .Our__first-card{
     display:flex;
     flex-direction: column;
-    width:650px;
+    width:1050px;
     height:500px;
     align-items: center;
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(17, 17, 17);
+    
     color:white;
     justify-content: center;
     border-radius: 15px;
+    border:0.5px solid gray;
 }
 
-.Our__second-card{
-    display:flex;
-    flex-direction: column;
-    width:512px;
-    background-color: rgb(31, 31, 31);
-    color:white;
-    justify-content: center;
-    align-items: center;
-    gap:20px;
-    border-radius: 15px;
-}
+
 
 .Our__heading{
-    font-size: 32px;
-    width:224px;
+    font-size: 42px;
+    width:300px;
     font-family: 'Sora';
     display:flex;
     flex-direction: column;
@@ -56,8 +48,8 @@ justify-content: center;
 
 .Our__para{
     font-family: 'Sora';
-    font-size: 16px;
-    width:270px;
+    font-size: 24px;
+    width:360px;
     display:flex;
   flex-direction: column;
   align-items: center;
@@ -69,11 +61,48 @@ justify-content: center;
     justify-content: center;
 }
 
-.Our__second-card-para{
+
+.Our__second-card{
+  
+    width:700px;
+    background-color: rgb(17, 17, 17);
+    color:white;
+    
+    gap:20px;
+    border-radius: 15px;
+    border:0.5px solid gray;
     display: flex;
-    gap:16px;
-    width:310px;
-    height:50px;
-    font-family: 'Sora';
-    font-size: 16px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
+
+.Our__second-card-para{
+    font-size: 20px;
+    font-family: "Sora";
+    width:350px;
+}
+
+.Our__second-card-para2{
+    font-size: 20px;
+    font-family: "Sora";
+    width:350px;
+}
+
+.Our__second-card-para3{
+    font-size: 18px;
+    font-family: "Sora";
+
+    width:350px;
+    font-weight: bold;
+    color:rgb(179,192,222,0.9);
+  
+ 
+}
+
+.Our__second-card-para3{
+    border-bottom:1px solid rgb(179,192,222,0.9) ;
+    width:200px;
+}
+
+

@@ -1,0 +1,75 @@
+.Connections{
+    margin-top:60px;
+    display:flex;
+    gap:30px;
+    background-color: black;
+    color:white;
+}
+
+.Connections__left{
+    width:1400px;
+    height:378px;
+    border:gray 1px solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sora';
+    position: relative;
+  
+    
+}
+
+.Connections__left h1{
+    font-size: 46px;
+    width: 515px;
+    margin-right: 58px;
+}
+
+.Connections__right{
+    border:gray 1px solid; 
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Sora';
+    padding-left:30px;
+    gap:30px;
+    width:341px;
+    position: relative;
+}
+.Connections__discord{
+    display:flex;
+    width:200px;
+    justify-content: flex-start;
+    font-family: 'Sora';
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.Connections__right-img{
+    display: flex;
+    justify-content: flex-start;
+    width:200px;
+}
+
+.Connections__right-para{
+    width:200px;
+}
+
+
+.Connections__blur{
+    position:absolute;
+    background: rgba(19, 51, 158, 0.476);
+    border-radius: 407px;
+    font-size: 250px;
+    height: 1.2em;
+    width: 2.6em;
+    filter: blur(100px);
+    top:50px;
+    left:120px;
+    
+    opacity:0.8;
+ 
+}
