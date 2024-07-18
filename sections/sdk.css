@@ -1,0 +1,136 @@
+.sdk-pic1{
+    width:40px;
+    height:44px;
+}
+
+
+.SDK{
+    display:flex;
+    gap:15px;
+
+margin-top: 60px;
+height: 618px;
+
+justify-content: center;
+
+}
+
+.SDK__card1{
+    display:flex;
+    flex-direction: column;
+    padding:40px;
+    gap:14px;
+    width:522px;
+    height:100%;
+    font-family: 'Sora';
+    background-color: rgb(31, 31, 31);
+    color:white;
+    
+    border-radius: 15px;
+
+}
+
+.SDK__card1 h4{
+    font-size: 50px;
+    width:400px;
+}
+
+.SDK__card1-explore{
+    display: flex;
+   
+    align-items: flex-end;
+}
+
+.SDK__card2{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+ .SDK__card2-sub-card1{
+width:347px;
+height: 40%;
+
+background-color: rgb(31, 31, 31);
+border-radius: 15px; ;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap:20px;
+justify-content: center;
+}
+
+.SDK__card2-sub-card1-track{
+    font-family: "Sora";
+    color:white;
+    font-size: 18px;
+}
+
+.SDK__card2-sub-card1-logs{
+    font-family: "Sora";
+    color:white;
+    width:196px;
+    font-size: 12px;
+    line-height: 18px;
+   
+}
+
+.SDK__card2-sub-card2{
+    gap:20px;
+height:60%;
+background-color: rgb(31, 31, 31);
+width:347px;
+border-radius: 15px; 
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color:white;
+font-family: "Sora";
+}
+
+.sdk-pic1{
+    background-color: blue;
+    mix-blend-mode:soft-light;
+}
+.SDK__card3{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.SDK__card3-sub-text1{
+    font-size: 18px;
+}
+
+.SDK__card3-sub-text2{
+    font-size: 14px;
+}
+.SDK__card3-sub-card3{
+    height:60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: 'Sora';
+    gap:20px;
+    
+
+background-color: rgb(31, 31, 31);
+border-radius: 18px;
+}
+
+
+
+.SDK__card3-sub-card4{
+    height: 40%;
+    background-color: rgb(31, 31, 31);
+    border-radius: 18px;
+    color:white;
+    font-family: "Sora";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
