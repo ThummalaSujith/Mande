@@ -27,6 +27,10 @@ body{
     width:min-content;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 :root{
     --tw-ring-offset-shadow: 0 0 #0000; /* Setting no visible ring offset shadow */
     --tw-shadow-color: #1f2937;
