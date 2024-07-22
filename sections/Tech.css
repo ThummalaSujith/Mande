@@ -120,8 +120,7 @@ hr{
     position: relative;
     padding:0;
     width:40%;
-    background: linear-gradient(180deg, rgba(102, 102, 102, 0) -46.96%, rgba(197, 199, 205, 0.05) 100%);
-  backdrop-filter: blur(35px);
+  
 }
 
 .Tech__left h4{
