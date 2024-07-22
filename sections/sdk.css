@@ -21,7 +21,8 @@
   width: 980px;
   height: 100%;
   font-family: "Sora";
-  background-color: rgb(17, 17, 17);
+  background: linear-gradient(180deg, rgba(102, 102, 102, 0) -46.96%, rgba(197, 199, 205, 0.05) 100%);
+  backdrop-filter: blur(35px);
   border: 0.5px solid gray;
   color: white;
 
@@ -55,6 +56,7 @@ transform:translateY(0)
   display: flex;
   flex-direction: column;
   gap: 10px;
+
  
 }
 
@@ -64,7 +66,7 @@ transform:translateY(0)
   width: 347px;
   height: 40%;
 
-  background-color: rgb(17, 17, 17);
+  
   border: 0.5px gray solid;
   border-radius: 15px;
   display: flex;
@@ -75,7 +77,8 @@ transform:translateY(0)
   opacity:0;
   transform:translateY(50%);
   transition:opacity 0.8s linear,transform 0.8s linear;
-  
+  background: linear-gradient(180deg, rgba(102, 102, 102, 0) -46.96%, rgba(197, 199, 205, 0.05) 100%);
+  backdrop-filter: blur(35px);
 }
 
 .SDK__card2-sub-card1.show{
@@ -113,6 +116,8 @@ transform:translateY(0)
   opacity:0;
   transform:translateY(50%);
   transition:opacity 0.8s linear,transform 0.8s linear;
+  background: linear-gradient(180deg, rgba(102, 102, 102, 0) -46.96%, rgba(197, 199, 205, 0.05) 100%);
+  backdrop-filter: blur(35px);
 }
 
 .SDK__card2-sub-card2.show{
@@ -148,6 +153,8 @@ transform:translateY(0)
   opacity:0;
   transform:translateY(50%);
   transition:opacity 0.8s linear,transform 0.8s linear;
+  background: linear-gradient(180deg, rgba(102, 102, 102, 0) -46.96%, rgba(197, 199, 205, 0.05) 100%);
+  backdrop-filter: blur(35px);
 }
 
 .SDK__card3-sub-card3.show{
@@ -171,6 +178,8 @@ transform:translateY(0)
   opacity:0;
   transform:translateY(50%);
   transition:opacity 0.8s linear,transform 0.8s linear;
+  background: linear-gradient(180deg, rgba(102, 102, 102, 0) -46.96%, rgba(197, 199, 205, 0.05) 100%);
+  backdrop-filter: blur(35px);
 }
 
 .SDK__card3-sub-card4.show{

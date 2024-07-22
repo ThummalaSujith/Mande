@@ -77,7 +77,7 @@
           <div class="hero__buttons">
             <button class="header__discord-button">Join Discord</button>
 
-            <button class="header__testnet">Testnet</button>
+            <button class="header__testnet">Mainnet</button>
           </div>
         </section>
       </div>
@@ -101,10 +101,14 @@
           </p>
 
           <p class="Our__second-card-para2">Let's unlock greatness together!</p>
-<div class="Our__second-card-para3-div">
-    <p  class="Our__second-card-para3">Learn More</p>
+
+          <div class="Learn__more">
+            <p  class="Our__second-card-para3">Learn More  <img src="./assests/images/arrow__upward.svg" class="upward__arrow"  /></p>
+          </div>
+
     
-</div>
+   
+
 
         
         </div>
@@ -123,7 +127,7 @@
           <div class="SDK__explore">
 
          
-          <p class="SDK__card1-explore">Explore Docs</p>
+          <p class="SDK__card1-explore">Explore Docs  <img src="./assests/images/arrow__upward.svg" class="upward__arrow"  /></p>
         </div>
         </div>
 
@@ -229,25 +233,28 @@
 
           <div class="card">
             <img src="./assests/images/bulid.svg" />
-            <h5>Explore proof of credibility</h5>
+            <h5>Build on
+              Mande</h5>
             <p>
-              Explore proof-of-credibility SDK to solve for trust on your DAPPs.
+              Disrupt decentralised marketplaces using human trust.
             </p>
           </div>
 
           <div class="card">
             <img src="./assests/images/fault.svg" />
-            <h5>Explore proof of credibility</h5>
+            <h5>Become a fault
+              prover</h5>
             <p>
-              Explore proof-of-credibility SDK to solve for trust on your DAPPs.
+              Help secure Mande by becoming a credible fault prover.
             </p>
           </div>
 
           <div class="card">
             <img src="./assests/images/issue.svg" />
-            <h5>Explore proof of credibility</h5>
+            <h5>Issue
+              credibility</h5>
             <p>
-              Explore proof-of-credibility SDK to solve for trust on your DAPPs.
+              Become a Credibility issuer by signing up as a DAO on Mande
             </p>
           </div>
         </div>
@@ -386,6 +393,8 @@
 <div class="Connections__discord">
     <h5>Join Discord</h5>
 </div>
+<div class="Connections__blur2"></div>
+        </div>
 </section>
 
      <footer>
@@ -459,7 +468,11 @@
      
    <script>
 
+
+
+
 const sliders = document.querySelectorAll('.slide-in');
+
 
 let observer = new IntersectionObserver((entries, observer) => {
   entries.forEach(entry => {
@@ -477,6 +490,23 @@ let observer = new IntersectionObserver((entries, observer) => {
 sliders.forEach(slider => {
   observer.observe(slider);
 });
+
+
+const arrows = document.querySelectorAll('.upward__arrow');
+
+console.log(arrows)
+
+
+  Array.from(arrows).forEach(arrow => {
+    arrow.addEventListener('mouseenter', () => {
+      arrow.style.transform = 'rotate(45deg)';
+    });
+    arrow.addEventListener('mouseleave', () => {
+      arrow.style.transform = 'rotate(0deg)';
+    });
+  });
+
+
 
    </script>
   </body>

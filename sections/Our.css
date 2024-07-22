@@ -29,6 +29,8 @@ mix-blend-mode:difference;
     opacity:0;
     transform:translateX(-70%);
     transition: opacity 0.8s linear, transform 0.8s linear;
+    background: linear-gradient(180deg, rgba(102, 102, 102, 0) -46.96%, rgba(197, 199, 205, 0.05) 100%);
+  backdrop-filter: blur(35px);
 }
 
 .Our__first-card.show{
@@ -88,7 +90,11 @@ justify-content: center;
     opacity:0;
     transform:translateX(70%);
     transition: opacity 0.8s linear, transform 0.8s linear;
+    background: linear-gradient(180deg, rgba(102, 102, 102, 0) -46.96%, rgba(197, 199, 205, 0.05) 100%);
+  backdrop-filter: blur(35px);
 }
+
+
 
 .Our__second-card.show{
 opacity:1;
@@ -112,17 +118,40 @@ transform:translateX(0);
     font-size: 18px;
     font-family: "Sora";
 
-    width:350px;
+    width:400px;
     font-weight: bold;
     color:rgb(179,192,222,0.9);
   
  
 }
-
+/* 
 .Our__second-card-para3{
     border-bottom:1px solid rgb(179,192,222,0.9) ;
-    width:110px;
+   width:140px;
     margin-right:240px;
+} */
+
+.upward__arrow{
+    cursor: pointer;
+    width:20px;
+    height:20px;
+    
+   margin-left:1px;
+   object-fit: contain;
+   vertical-align:middle;
+ 
 }
+
+.Learn__more{
+    border-bottom:1px solid rgb(179,192,222,0.9) ;
+   width:110px;
+    margin-right:240px;
+    
+    
+
+}
+
+
+
 
 

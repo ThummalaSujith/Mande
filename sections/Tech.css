@@ -119,7 +119,9 @@ hr{
 .Tech__left{
     position: relative;
     padding:0;
-    width:40%
+    width:40%;
+    background: linear-gradient(180deg, rgba(102, 102, 102, 0) -46.96%, rgba(197, 199, 205, 0.05) 100%);
+  backdrop-filter: blur(35px);
 }
 
 .Tech__left h4{
@@ -134,17 +136,17 @@ hr{
 
 .Tech__blur{
     position:absolute;
-    background: rgba(4, 21, 77, 0.7);
+    background: rgba(33, 53, 119, 0.7);
     border-radius: 407px;
     font-size: 250px;
     height: 1.8em;
     width: 1.8em;
-    filter: blur(100px);
-    top:0;
-    left:170px;
+    filter: blur(200px);
+   bottom:40px;
+    right:160px;
     
     opacity:0.8;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); 
+    box-shadow: 0 0 1200px rgba(255, 255, 255, 0.5); 
 }
 
 hr{
@@ -159,6 +161,8 @@ hr{
     width:60%;
     margin:0 auto;
     height:440px;
+    background: linear-gradient(180deg, rgba(102, 102, 102, 0) -46.96%, rgba(197, 199, 205, 0.05) 100%);
+  backdrop-filter: blur(35px);
    
 }
 ul{

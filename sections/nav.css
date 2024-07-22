@@ -90,7 +90,7 @@ nav{
   font-weight: 600;
   font-family: 'Sora';
   font-size: 14px;
-  border:1px solid rgba(179, 192, 222, 1);
+  border:0.3px solid rgba(179, 192, 222, 1);
   border-radius:5px ;
   background-color: transparent;
 }

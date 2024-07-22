@@ -52,6 +52,7 @@
     display: flex;
     justify-content: flex-start;
     width:200px;
+    position:relative;
 }
 
 .Connections__right-para{
@@ -61,15 +62,31 @@
 
 .Connections__blur{
     position:absolute;
-    background: rgba(19, 51, 158, 0.476);
+    background: rgba(33, 53, 119, 0.7);
     border-radius: 407px;
     font-size: 250px;
-    height: 1.2em;
-    width: 2.6em;
-    filter: blur(100px);
-    top:50px;
-    left:120px;
+    height: 1em;
+    width: 2.8em;
+    filter: blur(130px);
+   top:40px;
+    right:400px;
     
     opacity:0.8;
+    box-shadow: 0 0 1200px rgba(255, 255, 255, 0.5);
  
+}
+
+.Connections__blur2{
+    position:absolute;
+    background: rgba(33, 53, 119, 0.7);
+    border-radius: 407px;
+    font-size: 250px;
+    height: 1em;
+    width: 2.8em;
+    filter: blur(130px);
+   top:40px;
+    right:400px;
+    
+    opacity:0.8;
+    box-shadow: 0 0 1200px rgba(255, 255, 255, 0.5);
 }

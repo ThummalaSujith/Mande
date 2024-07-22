@@ -25,3 +25,10 @@
 body{
     background-color: black;
 }
+
+:root{
+    --tw-ring-offset-shadow: 0 0 #0000; /* Setting no visible ring offset shadow */
+    --tw-shadow-color: #1f2937;
+    --tw-shadow-colored: inset -12px -8px 40px var(--tw-shadow-color); 
+    --tw-shadow: var(--tw-shadow-colored);
+}
