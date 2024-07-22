@@ -24,6 +24,7 @@
 
 body{
     background-color: black;
+    width:min-content;
 }
 
 :root{

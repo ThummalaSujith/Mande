@@ -1,7 +1,22 @@
 .background__image{
     background-image: url('../assests/images/main-img.jpeg');
-    width:100%;
+    width:100vw;
     height: 910px;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
 }
+
+
+
+    
+@media (max-width: 1500px) {
+    .background__image {
+        background-image: url('../assests/images/main-img.jpeg');
+        background-size: cover;  
+        width: 100%;  
+        resize: both;
+                 
+    }
+}
+    
