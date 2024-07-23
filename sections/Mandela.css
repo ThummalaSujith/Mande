@@ -91,6 +91,57 @@ right:2px;
     gap:30px;
 }
 
+.Mandela__heading h2 {
+    font-family: 'Sora';
+    font-size: 27px;
+    font-weight: bold;
+    width: 351px;
+    color: white;
+}
+.Mandela__img {
+    width: 420px;
+    height: 428px;
+    z-index: 10;
+    position: relative;
+}
+.Mandela__quotes-heading h4 {
+    font-size: 25px;
+    font-family: 'Sora';
+    color: white;
+    width: 348px;
+    margin-left: 60px;
+}
+.Mandela {
+    display: flex;
+    flex-direction: column;
+    margin-top: 160px;
+}
+.Mandela__quotes-heading p {
+    font-family: "Sora";
+    font-size: 14px;
+    color: white;
+    margin-left: 60px;
+}
+.Mandela__quotes {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+}
+.Mandela_quotes-para p {
+    font-family: 'Sora';
+    font-size: 14px;
+    color: white;
+    width: 348px;
+    margin-left: 60px;
+}
+.Mandela_quotes-para2 p {
+    font-family: 'Sora';
+    font-size: 14px;
+    color: white;
+    width: 348px;
+    margin-left: 60px;
+}
 
 
 }

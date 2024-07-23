@@ -90,3 +90,27 @@
     opacity:0.8;
     box-shadow: 0 0 1200px rgba(255, 255, 255, 0.5);
 }
+
+
+@media (max-width:950px){
+    .Connections {
+        display: flex;
+        gap: 30px;
+        background-color: black;
+        color: white;
+        flex-direction: column;
+    }
+    .Connections__left {
+        width: 380px;
+        padding:40px;
+        text-align: start;
+        
+        
+    }
+    .Connections__right {
+        width: 380px;
+        padding:40px;
+        text-align: start;
+        
+    }
+}

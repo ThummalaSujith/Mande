@@ -70,3 +70,35 @@ background: linear-gradient(180deg, rgba(102, 102, 102, 0) -46.96%, rgba(197, 19
 }
 
 
+@media (max-width:700px){
+
+    .Community__Cards {
+        display: flex;
+        gap: 15px;
+        margin-top: 30px;
+        opacity: 0;
+        transform: translateY(50%);
+        transition: opacity 0.8s linear, transform 0.8s linear;
+        background: linear-gradient(180deg, rgba(102, 102, 102, 0) -46.96%, rgba(197, 199, 205, 0.05) 100%);
+        backdrop-filter: blur(35px);
+        overflow-x: scroll;
+        overflow-y:hidden;
+    }
+
+    .card {
+        border: 0.5px solid gray;
+        width: 199px;
+        height: 250px;
+        color: white;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        font-family: 'Sora', sans-serif;
+        border-radius: 18px;
+        box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    }
+}
+
