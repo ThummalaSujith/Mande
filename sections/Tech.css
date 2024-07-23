@@ -207,3 +207,20 @@ display:inline;
 .Tech__right-left h4{
 width:300px;
 }
+
+@media (max-width:700px){
+
+    .Tech{
+        display:flex;
+        flex-direction: column;
+        margin-top:700px;
+    }
+}
+
+@media (max-width:700px){
+
+    .Tech-sec{
+        display: flex;
+        flex-direction: column;
+    }
+}

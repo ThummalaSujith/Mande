@@ -155,3 +155,35 @@ transform:translateX(0);
 
 
 
+@media (max-width: 1000px){
+
+
+    .Our__second-card{
+        width:70%;
+        padding:50px;
+    }
+    .Our__first-card{
+        width:70%;
+        padding:50px;
+    }
+}
+
+
+@media (max-width:700px){
+    .Our{
+        display:flex ;
+        flex-direction: column;
+    }
+
+    .Our__first-card{
+        width:100%;
+        padding:50px;
+    }
+
+    .Our__second-card{
+        width:100%;
+        padding:50px;
+       
+    }
+
+}

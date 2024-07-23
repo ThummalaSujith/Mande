@@ -10,7 +10,7 @@
 
 
     
-@media (max-width: 1500px) {
+@media (max-width: 800px) {
     .background__image {
         background-image: url('../assests/images/main-img.jpeg');
         background-size: cover;  
