@@ -8,6 +8,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -322,7 +326,59 @@
         </div>
       </section>
 
+      
+
+    </div>
+
+    <div class="left-right__arrows">
+<h2>Join our Community</h2>
+   
+    <div #swiperRef="" class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" style="width:350px">
+          <img src="./assests/images/explore2.svg" class="swiper-slide__img"/>
+          <h4>Explore the proof of credibility</h4>
+          <p>Explore proof-of-credibility SDK to solve for trust on your DAPPs.</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="./assests/images/bulid.svg"  class="swiper-slide__img"/>
+            <h5>Build on Mande</h5>
+            <p>Disrupt decentralised marketplaces using human trust.</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="./assests/images/fault.svg" />
+            <h5>Become a fault prover</h5>
+            <p>Help secure Mande by becoming a credible fault prover.</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="./assests/images/issue.svg" />
+          <h5>Issue credibility</h5>
+          <p>Become a Credibility issuer by signing up as a DAO on Mande</p>
+        </div>
+      </div>
+      
+
+    
+    </div>
+
+
+    <img src="./assests/images/next.svg" class="swiper-button-next"/>
+
+    
+  
+
+<img src="./assests/images/prev.svg" class="swiper-button-prev"/>
+  
+  </div>
+  
       <section class="Community">
+
+
+
+
+       
+
+
         <h1 class="Community-heading">Join our community</h1>
         <div class="Community__Cards slide-in">
           <div class="card">
@@ -352,6 +408,9 @@
           </div>
         </div>
       </section>
+
+
+
 
       <section class="Mandela">
         <div class="Mandela__heading">
@@ -530,7 +589,7 @@
         <img src="./assests/images/mande__logo.svg" class="mande__logo" />
       </div>
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
       const sliders = document.querySelectorAll(".slide-in");
 
@@ -618,10 +677,25 @@ uparrow.addEventListener("click", () => {
 
 })
     
-
+var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 5,
+      centeredSlides: true,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
     
 
 
     </script>
+  
+
+
   </body>
 </html>
