@@ -577,9 +577,12 @@
       menuIcon.addEventListener("click", () => {
         if (flag === 0) {
           sideheader.style.transform = "translateX(0%)";
+          sideheader.style.display="block";
           flag = 1;
+
         } else {
           sideheader.style.transform = "translateX(-110%)";
+          sideheader.style.display="none";
           flag = 0;
         }
       });
@@ -609,7 +612,7 @@ uparrow.addEventListener("click", () => {
     sideBar__uparrow_flag=0;
   }
 
-  
+
  
 });
 
