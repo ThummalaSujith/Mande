@@ -220,6 +220,10 @@ width:300px;
 
 @media (max-width:700px){
 
+
+    .Tech{
+        margin-top: 37vh;        margin-top: 37vh;
+    }
 .Tech-sec{
     display: flex;
     flex-direction: column;
@@ -265,5 +269,17 @@ width:300px;
     font-size: 33px;
 }
 
+.Tech-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+    padding: 10vw;
+}
+
+.left-right__arrows {
+    position: relative;
+    height: 45vh;
+    padding-left: 9vw;
+}
 
 }
