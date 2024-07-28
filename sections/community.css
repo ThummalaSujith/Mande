@@ -90,8 +90,9 @@ background: linear-gradient(180deg, rgba(102, 102, 102, 0) -46.96%, rgba(197, 19
         transition: opacity 0.8s linear, transform 0.8s linear;
         background: linear-gradient(180deg, rgba(102, 102, 102, 0) -46.96%, rgba(197, 199, 205, 0.05) 100%);
         backdrop-filter: blur(35px);
-        overflow-x: scroll;
-        overflow-y:hidden;
+      
+ 
+       
     }
 
     .card {
@@ -108,6 +109,17 @@ background: linear-gradient(180deg, rgba(102, 102, 102, 0) -46.96%, rgba(197, 19
         font-family: 'Sora', sans-serif;
         border-radius: 18px;
         box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+
+ 
+    }
+
+    .rl__arrows{
+      display:flex;
+      width:90vw;
+      justify-content: flex-end;
+      gap:30px;
+      margin-top:2vw;
+
     }
 
 
@@ -127,7 +139,7 @@ background: linear-gradient(180deg, rgba(102, 102, 102, 0) -46.96%, rgba(197, 19
     }
     .left-right__arrows{
         display:block;
-        margin-top:20px;
+        margin-top: -5vh;
     }
 
     .swiper {
@@ -163,6 +175,7 @@ background: linear-gradient(180deg, rgba(102, 102, 102, 0) -46.96%, rgba(197, 19
     
         box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
         border:0.5px solid gray;
+         
       }
 
       .swiper-slide p{
@@ -212,22 +225,22 @@ background: linear-gradient(180deg, rgba(102, 102, 102, 0) -46.96%, rgba(197, 19
     
       top:400px !important;
       position: absolute;
-      background-color: #fff;
+     
       color:#fff;
-      border:1px solid red;
+     
       height:30px;
       width:30px;
-      border-radius: 50%;
+      
       bottom:-80px;
   
         }
   
-        /* .swiper-button-prev{
+        .swiper-button-prev{
           left:calc(50%-40px)
         }
         .swiper-button-next{
           right:calc(50%-40px)
-        } */
+        }
   
         .swiper-button-prev{
           left:330px
@@ -261,8 +274,23 @@ background: linear-gradient(180deg, rgba(102, 102, 102, 0) -46.96%, rgba(197, 19
           margin-left:20px;
         }
 
-        .Community{
+         .Community{
             display:none;
-        }
-}
+        } 
+ 
+        
+
+        .swiper-wrapper {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          z-index: 1;
+          display: flex;
+          transition-property: transform;
+          transition-timing-function: var(--swiper-wrapper-transition-timing-function, initial);
+          box-sizing: content-box;
+          padding-left: 20px;
+      }  
+    }
+
 

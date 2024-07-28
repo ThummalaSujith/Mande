@@ -56,12 +56,17 @@ h3{
 footer{
     display:flex;
     flex-direction: column;
+    margin-left:10vw;
 }
 .footer__grid{
     display:flex;
     flex-direction: column;
 }
 .footer__image{
-    margin-left:3
+    margin-left:5vw;
+    margin-bottom: 3vw;
 }
+
+
+
 }

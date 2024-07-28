@@ -104,7 +104,7 @@ hr{
 .Tech{
     height:660px;
    
-    margin-top:20px;
+    margin-top: 28vh;
     width:100%;
 
 }
@@ -213,14 +213,57 @@ width:300px;
     .Tech{
         display:flex;
         flex-direction: column;
-        margin-top:700px;
+        margin-top: 28vh;
+        height:110vh;
     }
 }
 
 @media (max-width:700px){
 
-    .Tech-sec{
-        display: flex;
-        flex-direction: column;
-    }
+.Tech-sec{
+    display: flex;
+    flex-direction: column;
+    gap:10vh;
+}
+
+
+
+.Tech__right{
+    width:90vw;
+}
+
+.Tech__right-left{
+    width:60vw;
+}
+
+.Tech__right-top{
+    display: flex;
+    flex-direction: column;
+}
+
+.Tech__right-right p{
+    width:80vw;
+}
+
+.Tech__right-top {
+    display: flex;
+    flex-direction: column;
+    /* margin: 0 auto; */
+    width: 70vw;
+    gap: 1.5vh;
+    padding: 1.2vh;
+}
+
+.Tech__ul{
+    display: flex;
+    flex-direction: column;
+    gap:6vh;
+}
+
+.Tech__left h4 {
+    width: 71vw;
+    font-size: 33px;
+}
+
+
 }

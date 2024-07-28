@@ -6,3 +6,12 @@
 .Mande__logo{
     margin-top:50px;
 }
+
+
+@media (max-width:600px){
+    .mande__logo{
+        width:98vw;
+       padding-bottom:1vw;
+       padding-left:4vw;
+    }
+}

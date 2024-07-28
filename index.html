@@ -272,14 +272,15 @@
 
       <section class="Tech">
         <div class="Tech-sec">
+
           <div class="Tech__left">
             <h4>Technology on Mande Network</h4>
             <div class="Tech__blur"></div>
           </div>
 
           <div class="Tech__right">
-            <ul>
-              <li>
+            <ul class="Tech__ul">
+              <li class="Tech__right-top">
                 <div class="Tech__right-left">
                   <img src="./assests/images/decentralized.svg" />
                   <h4>Decentralised Identity</h4>
@@ -294,7 +295,7 @@
                 </div>
               </li>
 
-              <li>
+              <li class="Tech__right-top">
                 <div class="Tech__right-left">
                   <img src="./assests/images/zk.svg" />
                   <h4>ZK Credentials</h4>
@@ -308,7 +309,7 @@
                 </div>
               </li>
 
-              <li>
+              <li class="Tech__right-top">
                 <div class="Tech__right-left">
                   <img src="./assests/images/soul.svg" />
                   <h4>Soul Bound Tokens</h4>
@@ -407,6 +408,8 @@
             <p>Become a Credibility issuer by signing up as a DAO on Mande</p>
           </div>
         </div>
+
+      
       </section>
 
 
@@ -446,7 +449,7 @@
         </div>
       </section>
 
-      <section class="Team">
+      <!-- <section class="Team">
         <div class="Team__heading">
           <h4>Our team</h4>
         </div>
@@ -522,7 +525,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <section class="Connections">
         <div class="Connections__left">
@@ -591,6 +594,8 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
+
+document.addEventListener('DOMContentLoaded', function () {
       const sliders = document.querySelectorAll(".slide-in");
 
       let observer = new IntersectionObserver(
@@ -678,9 +683,9 @@ uparrow.addEventListener("click", () => {
 })
     
 var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 5,
-      centeredSlides: true,
-      spaceBetween: 10,
+      slidesPerView: 1,
+      centeredSlides: false,
+      spaceBetween: 30,
       pagination: {
         el: ".swiper-pagination",
         type: "fraction",
@@ -690,8 +695,11 @@ var swiper = new Swiper(".mySwiper", {
         prevEl: ".swiper-button-prev",
       },
     });
-    
 
+
+   
+    
+  });
 
     </script>
   

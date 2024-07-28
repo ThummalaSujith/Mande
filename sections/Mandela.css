@@ -93,23 +93,24 @@ right:2px;
 
 .Mandela__heading h2 {
     font-family: 'Sora';
-    font-size: 27px;
+    font-size: 7vw;
     font-weight: bold;
     width: 351px;
     color: white;
+    margin-left: 6vw;
 }
 .Mandela__img {
-    width: 420px;
-    height: 428px;
+    width: 98vw;
+    height: 99vw;
     z-index: 10;
     position: relative;
 }
 .Mandela__quotes-heading h4 {
-    font-size: 25px;
+    font-size: 6vw;
     font-family: 'Sora';
     color: white;
     width: 348px;
-    margin-left: 60px;
+    margin-left: 20vw;
 }
 .Mandela {
     display: flex;
@@ -120,7 +121,7 @@ right:2px;
     font-family: "Sora";
     font-size: 14px;
     color: white;
-    margin-left: 60px;
+    margin-left: 20vw;
 }
 .Mandela__quotes {
     display: flex;
@@ -133,14 +134,14 @@ right:2px;
     font-size: 14px;
     color: white;
     width: 348px;
-    margin-left: 60px;
+    margin-left: 20vw;
 }
 .Mandela_quotes-para2 p {
     font-family: 'Sora';
     font-size: 14px;
     color: white;
     width: 348px;
-    margin-left: 60px;
+    margin-left: 20vw;
 }
 
 

@@ -101,7 +101,7 @@
         flex-direction: column;
     }
     .Connections__left {
-        width: 380px;
+        width: 70vw;
         padding:40px;
         text-align: start;
         
@@ -112,5 +112,49 @@
         padding:40px;
         text-align: start;
         
+    }
+
+    .Connections {
+        display: flex;
+        gap: 30px;
+        background-color: black;
+        color: white;
+        flex-direction: column;
+        margin-top: 80px;
+        padding-left: 30px;
+    }
+    .Connections__left h1 {
+        font-size: 8vw;
+        width: 70vw;
+        margin: 0 auto;
+    }
+
+    .Connections__left {
+        width: 80vw;
+        padding: 40px;
+        text-align: start;
+        height: 350px;
+        margin: 0 auto;
+    }
+
+    .Connections__right{
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+    .Connections__right-img{
+       padding-left:4vw;
+        width:70vw
+    }
+    .Connections__right-para{
+  
+       width:70vw;
+       padding-left:20px;
+       font-size: 3.8vw;
+
+    }
+
+    .Connections__discord {
+margin-right:13vw;
     }
 }
